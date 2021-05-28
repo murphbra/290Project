@@ -12,13 +12,14 @@ function carousel() {
   }
   pageIndex++;
   if (pageIndex > slides.length) {pageIndex = 1}
-  // sets current slide display type to "block". utilizes setTimeout() to call carousel() again in 3 seconds
+  // sets current slide display type to "block", thereby displaying it. utilizes setTimeout() to call carousel() again in 3 seconds
   slides[pageIndex-1].style.display = "block";
   setTimeout(carousel, 3000); 
 }
 
 function navSlides(n) {
     // calls chooseSlides function and passes it current pageIndex +/- 1 when previous or next button is pressed on home page
+    // which manually moves slideshow to next slide 
   chooseSlides(pageIndex += n);
 }
 
@@ -31,5 +32,6 @@ function chooseSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
+  // displays the selected slide 
   slides[pageIndex-1].style.display = "block";
 }
