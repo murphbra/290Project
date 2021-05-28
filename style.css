@@ -8,10 +8,9 @@
     display: none;
   }
 
-  .menu {
-      border-style: solid;
-      background-color: lightblue;
-      text-align: center;
-      margin: auto;
-
+.menu {
+    border-style: solid;
+    background-color: lightblue;
+    text-align: center;
+    margin: auto;
   }
