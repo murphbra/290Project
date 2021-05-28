@@ -6,6 +6,8 @@
 
 .pageSlides {
     display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu {
@@ -15,10 +17,15 @@
     margin: auto;
 }
 
-.carousel, .pageSlides{
-    margin:auto;
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 iframe{
     margin: auto;
+}
+
+body {
+    background-color: lightcyan;
 }
