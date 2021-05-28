@@ -6,8 +6,12 @@
 
 .pageSlides {
     display: none;
-    margin: auto;
-    width: 90%
+}
+
+.carousel {
+    display: block;
+    margin:auto;
+    width:70% 
 }
 
 .menu {
