@@ -12,12 +12,13 @@
 
 .menu {
     border-style: solid;
-    background-color: lightblue;
+    background-color: lightcoral
     text-align: center;
     margin: auto;
 }
 
 .carousel{
+    display: block; 
     margin-left: auto;
     margin-right: auto;
 }
