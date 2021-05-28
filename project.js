@@ -3,7 +3,7 @@ showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("pageSlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -12,13 +12,13 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-function plusSlides(n) {
+function navSlides(n) {
   chooseSlides(slideIndex += n);
 }
 
 function chooseSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("pageSlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
