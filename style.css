@@ -1,6 +1,6 @@
 .scrollbox {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     overflow: scroll;
 }
 
@@ -14,3 +14,4 @@
     text-align: center;
     margin: auto;
 }
+
