@@ -6,7 +6,6 @@
 
 .pageSlides {
     display: none;
-    width: 50% 
 }
 
 .menu {
@@ -18,7 +17,7 @@
 
 .carousel{
     margin: auto;
-    width: 30%
+    width: 70%
 }
 
 body {
