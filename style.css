@@ -6,6 +6,8 @@
 
 .pageSlides {
     display: none;
+    margin: auto;
+    width: 100%
 }
 
 .menu {
