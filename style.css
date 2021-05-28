@@ -3,3 +3,7 @@
     height: 10px;
     overflow: scroll
 }
+
+.mySlides {
+    display: none;
+  }
