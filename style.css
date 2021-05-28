@@ -1,4 +1,4 @@
-.scrollbox{
+.scrollbox {
     width: 10px;
     height: 10px;
     overflow: scroll;
@@ -6,11 +6,11 @@
 
 .pageSlides {
     display: none;
-  }
+}
 
 .menu {
     border-style: solid;
     background-color: lightblue;
     text-align: center;
     margin: auto;
-  }
+}
